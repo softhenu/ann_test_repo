@@ -30,3 +30,4 @@ class NeuralNetwork():
         self.who+=self.lr*np.dot(output_errors*final_outputs*(1-final_outputs),np.transpose(hidden_outputs))
         self.whi+=self.lr*np.dot(hidden_errors*hidden_outputs*(1-hidden_outputs),np.transpose(inputs))
         pass
+#我这边只进行测试罢了
